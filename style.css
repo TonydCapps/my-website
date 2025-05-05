@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(186, 54, 54);
+    color: #333;
+}
+/* This is the class selector */
+.idea-list {
+    background-color: rgb(55, 140, 179);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+/* this is the id selector */
+#main-title {
+    font-size: 2rem;
+    color: rgb(7, 33, 58);
+}
+/* this is the relational selector */
+main > section {
+    margin: 2em 0;
+}
+/* this is the combination selector */
+h2.idea-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* this is the pseudo-class selector */
+a:hover {
+    color: rgb(255, 0, 102);
+    text-decoration: underline;
+}
+/* this is the relative units */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0.2em solid #ccc;
+}
+
